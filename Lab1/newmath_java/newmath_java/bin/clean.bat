@@ -1,0 +1,1 @@
+call del /F /Q .\dist\*.class
