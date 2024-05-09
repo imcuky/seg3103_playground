@@ -42,4 +42,18 @@ Run the command: `.\bin\test.bat`
 
 ## newmath_ex
 
+1. Navigate to the file location
 
+`cd Your drive:\Your file\seg3103_playground\Lab1\newmath_ex\newmath_ex`
+
+2. Run
+
+Run the command: `mix compile` for compile
+
+Run the command: `iex -S mix`
+
+Then enter: `NewmathEx.div(a,b)` where a is the numberator and b is the demoniator for running the function
+
+3. Test
+
+Run the command: `mix test %*` for testing
