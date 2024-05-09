@@ -12,6 +12,8 @@
 
 `Get-ChildItem ./src -Filter *.py -Recurse | ForEach-Object {python -m py_compile $_.FullName}`
 
+
+
 3. Run the `run.py`
 
 Run the command: `python -i ./bin/run.py in windows` where it run the `run.py` file in a python environment
@@ -20,9 +22,13 @@ enter `newmath.div(6,3)` it will show the result from funtion `div(number1, numb
 
 enter `exit()` for exit the python environment
 
+![](assets\python_run.png)
+
 4. Run the test case
 
 Run the command: `$env:PYTHONPATH += ";$(Get-Location)\src"` and `python -m unittest discover -s test` for showing the unit test result
+
+![](assets\python_test.png)
 
 
 ## newmath_java
@@ -35,10 +41,14 @@ Run the command: `$env:PYTHONPATH += ";$(Get-Location)\src"` and `python -m unit
 
 Run the command: `.\bin\run.bat`
 
+![](assets\java_run.png)
+
+
 3. Test
 
 Run the command: `.\bin\test.bat`
 
+![](assets\java_test.png)
 
 ## newmath_ex
 
@@ -54,6 +64,12 @@ Run the command: `iex -S mix`
 
 Then enter: `NewmathEx.div(a,b)` where a is the numberator and b is the demoniator for running the function
 
+![](assets\elixir_run.png)
+
+
 3. Test
 
 Run the command: `mix test %*` for testing
+
+
+![](assets\elixir_test.png)
