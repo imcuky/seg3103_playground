@@ -20,12 +20,17 @@ TC3 | UserName1234 | John Doe | Smith Jr |  user@domain.c | 18 | Montreal | A1A1
 |TC3| Wrong Email format | Wrong Email format | pass
 
 
+ - JUnit result on BitTest.java and BitAndTest.java
 
-
-![alt text](image.png)
+![alt text](assets\image.png)
 
 
 
 ## Exercise 2
 
 
+JUnit test result
+
+![dateTest](assets\dateTest.png)
+![DateNextOk](assets\DateNextOk.png)
+![DateNextException](assets\DateNextException.png)
