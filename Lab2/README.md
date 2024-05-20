@@ -71,7 +71,7 @@ TC27 | UserName1234 | "" | "" | example@gmail.com?? | 18 | Ottawa | 000000
 
 `run: .\bin\test.bat`
 
-![alt text](assets\image.png)
+![alt text](https://github.com/imcuky/seg3103_playground/blob/main/Lab2/assets/image.png)
 
 
 
@@ -80,6 +80,6 @@ TC27 | UserName1234 | "" | "" | example@gmail.com?? | 18 | Ottawa | 000000
 
 JUnit test result
 
-![dateTest](assets\dateTest.png)
-![DateNextOk](assets\DateNextOk.png)
-![DateNextException](assets\DateNextException.png)
+![dateTest](https://github.com/imcuky/seg3103_playground/blob/main/Lab2/assets/dateTest.png)
+![DateNextOk](https://github.com/imcuky/seg3103_playground/blob/main/Lab2/assets/DateNextOk.png)
+![DateNextException](https://github.com/imcuky/seg3103_playground/blob/main/Lab2/assets/DateNextException.png)
