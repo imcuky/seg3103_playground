@@ -10,5 +10,11 @@ public class FizzBuzzTest {
         assertEquals("Fizz", fb.fizzBuzz(3));
     }
 
+    @Test
+    void testPass2(){
+        fizzbuzzCode fb  =  new fizzbuzzCode();
+        assertEquals("Buzz", fb.fizzBuzz(5));
+    }
+
    
 }
