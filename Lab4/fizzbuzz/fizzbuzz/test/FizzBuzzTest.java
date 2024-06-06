@@ -22,7 +22,13 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz", fb.fizzBuzz(15));
     }
 
-   
+    @Test
+    void testFail1(){
+        fizzbuzzCode fb  =  new fizzbuzzCode();
+        assertEquals("Fizz", fb.fizzBuzz(5));
+    }
+
+    
 
    
 }
