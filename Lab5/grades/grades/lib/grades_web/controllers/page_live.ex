@@ -15,7 +15,14 @@ defmodule GradesWeb.PageLive do
     end
   end
 
-  
+  def percentage_grade(grades) do
+    total = numeric_grade(grades)
+
+    percentage = Float.to_string(total) <> "%" 
+    percentage
+  end
+
+
 end
 
 
