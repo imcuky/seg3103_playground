@@ -3,6 +3,18 @@ defmodule GradesWeb.PageLive do
   #alias Grades.Calculator
 
   defmodule Calculator do
+  def letter_grade(grades) do
+
+    input = numeric_grade(grades)
+    cond do
+      input >= 90 -> 'A+'
+      input >= 80 -> 'A'
+      input >= 70 -> 'B'
+      input >= 60 -> 'C'
+      true -> 'F' # Default case if no conditions match
+    end
+  end
+
   
 end
 
