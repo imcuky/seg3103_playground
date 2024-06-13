@@ -1,6 +1,13 @@
 defmodule GradesWeb.PageLive do
   use GradesWeb, :live_view
-  alias Grades.Calculator
+  #alias Grades.Calculator
+
+  defmodule Calculator do
+  
+end
+
+
+
 
   @impl true
   def mount(_params, _session, socket) do
