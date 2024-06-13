@@ -22,7 +22,18 @@ defmodule GradesWeb.PageLive do
     percentage
   end
 
+  def numeric_grade(grades) do
+    total = (Enum.sum(convert_to_numbers(grades[:homework]))/4 +
+            Enum.sum(convert_to_numbers(grades[:labs]))/6 +
+            String.to_integer(grades[:midterm]) +
+            String.to_integer(grades[:final]))/4
 
+    total
+  end
+
+  defp convert_to_numbers(list) do
+    Enum.map(list, &String.to_integer/1)
+  end
 end
 
 
