@@ -1,0 +1,1 @@
+java -jar ./target/BookstoreApp-0.1.0.jar
