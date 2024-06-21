@@ -34,8 +34,9 @@ class ExampleSeleniumTest {
     // Pick your browser
     // driver = new FirefoxDriver();
     // driver = new SafariDriver();
-    WebDriverManager.chromedriver().setup();
     driver = new ChromeDriver();
+    WebDriverManager.chromedriver().setup();
+    
 
     // WebDriverManager.edgedriver().setup();
     // driver = new EdgeDriver();
@@ -79,6 +80,15 @@ class ExampleSeleniumTest {
     expected = "Bienvenu";
     actual = welcome.getText();
     assertEquals(expected, getWords(actual)[0]);
+  }
+
+  @Test
+  public void test3(){
+
+    System.out.println("It works!!");
+
+    assertEquals(1+1, 2);
+
   }
 
   private String[] getWords(String s) {
