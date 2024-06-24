@@ -13,8 +13,8 @@ defmodule Grades.Calculator do
   end
 
 
-  def calculate_grade() do
-
+  def calculate_grade(avg_labs, avg_homework, midterm, final) do
+    mark = 0.2 * avg_labs + 0.3 * avg_homework + 0.2 * midterm + 0.3 * final
   end
 
   def percentage_grade(%{homework: homework, labs: labs, midterm: midterm, final: final}) do
