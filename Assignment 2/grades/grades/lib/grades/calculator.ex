@@ -8,8 +8,8 @@ defmodule Grades.Calculator do
     end
   end
 
-  def failed_to_participate() do
-
+  defp failed_to_participate?(avg_homework, avg_exams, num_labs) do
+    avg_homework < 0.4 || avg_exams < 0.4 || num_labs < 3
   end
 
 
