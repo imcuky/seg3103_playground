@@ -7,11 +7,14 @@
 import javax.swing.JFrame;
 
 public class Main {
+  public static void main(String[] argv) {
+      run();
+  }
 
-	public static void main(String[] argv) {
-    JFrame frame =
-	  new CalCFrame("Calculator");
-    frame.setSize(360,200);
-    frame.setVisible(true);
+  public static void run() {
+      JFrame frame = new JFrame("Calculator");
+      frame.setSize(360,200);
+      frame.setVisible(true);
   }
 }
+
